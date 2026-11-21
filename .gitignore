@@ -1,0 +1,19 @@
+# Data: downloaded by scripts/download.sh, never committed
+data/
+*.parquet
+*.csv
+*.duckdb
+*.duckdb.wal
+*.part
+
+# Secrets
+.env
+.env.*
+
+# DuckDB CLI
+.duckdb_history
+
+# OS and editors
+.DS_Store
+.vscode/
+.idea/
